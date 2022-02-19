@@ -25,7 +25,7 @@ class AboutUs extends StatelessWidget {
               Container(
                   padding: EdgeInsets.fromLTRB(20, 20, 20, 10),
                   child: const Text(
-                    "We are the TED Sakarya High School Global Citizenship Club members. Over the past couple of years, we have been researching the global conflicts that citizens and our planet are face to face with. Our aim is to improve the awareness for citizenship conflicts, gender diversity and issues in our neighborhood.\n\nAs the Citizenship Theories group, this year we have developed a website and mobile application for global awareness. You can access the website from the link below:",
+                    "Bizler matemetiği okulda gördüğümüz bir dersin üstüne çıkarmaya çalışan lise öğrencileriyiz. Amacımız matematiksel düşünceyi geliştirmek, matematik ile ilgili çalışmalar yapmak ve matematiğin eğlenceli dünyasının kapılarını insanlara gösterebilmektir. Oku-Mat projemiz, verimli kitap okumanın matematik başarısını araştırma gayesi taşımaktadır.",
                     style: Styles.textDefault,
                   )
               ),

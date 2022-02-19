@@ -15,32 +15,14 @@ class Articles {
           "BİLMEYİ BİLME: ÜSTBİLİŞ",
           "https://www.trbimg.com/img-5bec7741/turbine/ct-books-biblioracle-1118",
           <ArticleContent>[
-            ArticleContent("Jale Kalemkuş","Eğitim ve öğretimdeki yeni yaklaşımlar öğrencilerin aktif olma durumlarını ön plana çıkararak,kendi öğrenmeleri üzerinde etkin olmalarını gerekli kılmaktadır. Günümüz 21. yüzyıl becerileri de bgerekliliği zorunlu hale getirmektedir. Zira bu yüzyılda bireylerin eleştirel düşünen, problem çözen, iletişimbecerisine ve işbirliğine açık, sorumluluk ve liderlik gibi becerileri edinmiş olması beklenmektedir. Bu
-beklenti kendi öğrenmesini planlayan, izleyen ve değerlendiren kısacası kendi öğrenmesinden sorumlu olanbağımsız bireylerin yetiştirilmesini önemli hale getirmektedir. Bu noktada üstbiliş kavramının önemi ön
-plana çıkmaktadır.\nEğitim artık öğrencilerin yalnızca bilişsel gelişimlerini değil bilişten öte bir gelişimi de
-desteklemeli ve geliştirmelidir. Derleme türündeki bu çalışmada, literatürdeki kaynaklara dayanarak
-üstbiliş ile ilgili açıklamalar yapılmış, üstbilişin eğitimdeki önemi vurgulanmış ve üstbilişi geliştirmek için
-öğretmenlere yapılan öneriler ve kullanılabilecek üstbiliş öğretim stratejileri sunulmuştur.\nBöylece gerek
-öğretmenlerin gerekse eğitim alanındaki araştırmacıların dikkatini üstbiliş kavramına çekmek ve bu sayede
-öğretmenlerde ve araştırmacılarda üstbilişe yönelik farkındalık oluşturulması amaçlanmıştır. İlgili
-araştırmalar da incelenerek bazı önerilerde bulunulmuştur."),
+            ArticleContent("Jale Kalemkuş","Eğitim ve öğretimdeki yeni yaklaşımlar öğrencilerin aktif olma durumlarını ön plana çıkararak,kendi öğrenmeleri üzerinde etkin olmalarını gerekli kılmaktadır. Günümüz 21. yüzyıl becerileri de gerekliliği zorunlu hale getirmektedir. Zira bu yüzyılda bireylerin eleştirel düşünen, problem çözen, iletişim becerisine ve işbirliğine açık, sorumluluk ve liderlik gibi becerileri edinmiş olması beklenmektedir. Bu beklenti kendi öğrenmesini planlayan, izleyen ve değerlendiren kısacası kendi öğrenmesinden sorumlu olan bağımsız bireylerin yetiştirilmesini önemli hale getirmektedir. Bu noktada üstbiliş kavramının önemi önplana çıkmaktadır.\nEğitim artık öğrencilerin yalnızca bilişsel gelişimlerini değil bilişten öte bir gelişimi de desteklemeli ve geliştirmelidir. Derleme türündeki bu çalışmada, literatürdeki kaynaklara dayanarak üstbiliş ile ilgili açıklamalar yapılmış, üstbilişin eğitimdeki önemi vurgulanmış ve üstbilişi geliştirmek için öğretmenlere yapılan öneriler ve kullanılabilecek üstbiliş öğretim stratejileri sunulmuştur.\nBöylece gerek öğretmenlerin gerekse eğitim alanındaki araştırmacıların dikkatini üstbiliş kavramına çekmek ve bu sayede öğretmenlerde ve araştırmacılarda üstbilişe yönelik farkındalık oluşturulması amaçlanmıştır. İlgili araştırmalar da incelenerek bazı önerilerde bulunulmuştur."),
           ]
       ),
       ArticleModel(
           "The Effect of Reading Comprehension on the Performance in Science and Mathematics",
           "https://www.rummelraiders.com/uploads/5/5/4/4/55448759/mao-mar16-dsc-0019_1_orig.jpg",
           <ArticleContent>[
-            ArticleContent("Assoc. Prof. Dr. Sait Akbaşlı ", "Mathematics and Science classes in schools have become a focus to be considered in terms of educational
-systems and administration around the world in the last decade. Related to the mentioned classes, there are many
-benefits that lead students to academic success. In the recent years, educators have found that there are so many
-different factors that effect students’ performance in science and math classes. Especially reading comprehension
-has changed so many traditional procedures in teaching math and science. It also shows remarkable benefits.
-This research focuses on the effects of reading comprehension on mathematics and science achievement.
-Students’ academic performance on the mentioned classes and their motivation towards those courses will also
-be the focus of the research. The research is based on the data gathered from the latest PISA results and the
-opinions of secondary school teachers and students. Findings of this research indicate that there is a correlation
-between reading comprehension results and student success in math or science classes. It also indicates that
-reading comprehension contributes positively or negatively to the success results in math or science classes."),
+            ArticleContent("Assoc. Prof. Dr. Sait Akbaşlı ", "Mathematics and Science classes in schools have become a focus to be considered in terms of educational systems and administration around the world in the last decade. Related to the mentioned classes, there are many benefits that lead students to academic success. In the recent years, educators have found that there are so many different factors tat effect students’ performance in science and math classes. Especially reading comprehensionhas changed so many traditional procedures in teaching math and science. It also shows remarkable benefit This research focuses on the effects of reading comprehension on mathematics and science achievement.Students’ academic performance on the mentioned classes and their motivation towards those courses will alsobe the focus of the research. The research is based on the data gathered from the latest PISA results and the opinions of secondary school teachers and students. Findings of this research indicate that there is a correlation between reading comprehension results and student success in math or science classes. It also indicates that reading comprehension contributes positively or negatively to the success results in math or science classes."),
 
           ]
       ),
@@ -49,15 +31,7 @@ reading comprehension contributes positively or negatively to the success result
           "The impact of Pleasure Reading on Academic Success",
           "https://img.apmcdn.org/fddb28720dbd0a77572b90e2e858c370487e0cbc/uncropped/533042-20090225-mathbook.jpg",
           <ArticleContent>[
-            ArticleContent("Christy Whitten et al.","Discovering ways to improve student academic performance is a common challenge in
-the modern classroom. This research study examined the reading habits of sixty-five high
-school juniors, aged fifteen to seventeen years, at a rural Southeast Texas high school. It
-was theorized that students who engaged in reading self-selected literature for pleasure
-would average higher grades in English, mathematics, science, and history than their
-non-reading peers. The authors concluded that students who read for pleasure averaged
-higher scores than their non-reading counterparts in the subject areas measured. The
-authors further concluded that educators were aware of the link between pleasure
-reading and academic success but felt limited by state curriculums and mandated tests."),
+            ArticleContent("Christy Whitten et al.","Discovering ways to improve student academic performance is a common challenge in the modern classroom. This research study examined the reading habits of sixty-five high school juniors, aged fifteen to seventeen years, at a rural Southeast Texas high school. It was theorized that students who engaged in reading self-selected literature for pleasure would average higher grades in English, mathematics, science, and history than their non-reading peers. The authors concluded that students who read for pleasure averaged higher scores than their non-reading counterparts in the subject areas measured. The authors further concluded that educators were aware of the link between pleasure reading and academic success but felt limited by state curriculums and mandated tests."),
  ]
 ),  ];
   }

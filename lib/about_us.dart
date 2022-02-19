@@ -10,7 +10,7 @@ class AboutUs extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("About Us", style: Styles.appbarStyle)
+        title: const Text("Hakkımızda", style: Styles.appbarStyle)
       ),
       drawer: const NavBar(),
       body: SingleChildScrollView(
@@ -20,7 +20,7 @@ class AboutUs extends StatelessWidget {
             children: [
               Container(
                   constraints: BoxConstraints.tightFor(height: 200),
-                  child: Image.network("https://gitlab.com/manyet1k/2022-gcc-website/-/raw/master/img/markus-spiske-r1BS0pzlr1M-unsplash.jpg", fit: BoxFit.fitWidth)
+                  child: Image.network("https://twinspace.etwinning.net/files/collabspace/4/44/644/197644/images/ba77953d8.jpg", fit: BoxFit.fitWidth)
               ),
               Container(
                   padding: EdgeInsets.fromLTRB(20, 20, 20, 10),
@@ -29,27 +29,18 @@ class AboutUs extends StatelessWidget {
                     style: Styles.textDefault,
                   )
               ),
-              Container(
-                  padding: const EdgeInsets.fromLTRB(40, 10, 40, 10),
-                  child: ElevatedButton.icon(
-                      icon: const Icon(Icons.web),
-                      onPressed: () {
-                        launch("https://tedsakaryagcc.xyz"); //launch is from url_launcher package to launch URL
-                      },
-                      label: const Text("Our Website")
-                  )
-              ),
+            
               Container(
                   padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
                   child: const Text(
-                    "Our Team",
+                    "Takımımız",
                     style: Styles.header,
                   )
               ),
               Container(
                   padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
                   child: const Text(
-                    "Our team members are Osman Talha Taka, Mustafa Efe Güzel, Ulaş Kuşçu and Zeynep Rana Yavuz.",
+                    "Math-Maker kulübü Üyeleri \nMustafa Efe Güzel\nOsman Talha Taka\nUlaş Kuşçu\nMina Mollaoğlu\nZeynep Pelin Ceyhan\nBeril Ayyıldız.",
                     style: Styles.textDefault,
                   )
               ),
@@ -58,9 +49,9 @@ class AboutUs extends StatelessWidget {
                   child: ElevatedButton.icon(
                       icon: const Icon(Icons.email),
                       onPressed: () {
-                        launch("mailto:tedsakaryagcc3@protonmail.com"); //launch is from url_launcher package to launch URL
+                        launch("mailto:readmathdevelopers@protonmail.com"); //launch is from url_launcher package to launch URL
                       },
-                      label: const Text("Send us an email")
+                      label: const Text("Bize E-Posta Gönderin")
                   )
               ),
               Container(
@@ -75,9 +66,9 @@ class AboutUs extends StatelessWidget {
                   child: ElevatedButton.icon(
                       icon: const Icon(Icons.code),
                       onPressed: () {
-                        launch("https://github.com/Osman-Taka/ted_gcc_mobile"); //launch is from url_launcher package to launch URL
+                        launch("https://github.com/Osman-Taka/READ-MATH"); //launch is from url_launcher package to launch URL
                       },
-                      label: const Text("View the source code")
+                      label: const Text("Kaynak Yazılımını görünlüle")
                   )
               ),
             ]

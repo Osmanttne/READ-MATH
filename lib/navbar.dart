@@ -40,18 +40,18 @@ class NavBar extends StatelessWidget {
           UserAccountsDrawerHeader(accountName: const Text(""), accountEmail: const Text(""),
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: const NetworkImage("https://tedsakaryagcc.xyz/img/app.png"),
+                image: const NetworkImage("https://twinspace.etwinning.net/files/collabspace/5/85/985/196985/images/c08e1d93a.jpg"),
               )
             )
           ),
           ListTile(
             leading: Icon(Icons.description),
-            title: Text("Articles", style: Styles.textDefault),
+            title: Text("Makaleler", style: Styles.textDefault),
             onTap: () => pageLoader(context, 0)
           ),
           ListTile(
             leading: Icon(Icons.people),
-            title: Text("About Us", style: Styles.textDefault),
+            title: Text("Hakkımızda", style: Styles.textDefault),
             onTap: () => pageLoader(context, 1)
           ),
         ],

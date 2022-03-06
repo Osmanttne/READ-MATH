@@ -1,5 +1,5 @@
-name: ted_gcc_mobile_app
-description: The mobile app for our 2022 TED GCC Challenge 3 project.
+name: read_math
+description: Read-Math projesinin mobil uygulamasıdır.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -40,13 +40,13 @@ dev_dependencies:
     sdk: flutter
   flutter_launcher_icons: ^0.9.2
 
-
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
+  url_launcher: ^6.0.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -93,6 +93,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
 
 
   fonts:

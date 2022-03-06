@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/article_model.dart';
-import 'package:ted_gcc_mobile_app/styles.dart';
+import 'package:read_math/styles.dart';
 
 class ArticleDetail extends StatelessWidget {
   final ArticleModel articleModel;

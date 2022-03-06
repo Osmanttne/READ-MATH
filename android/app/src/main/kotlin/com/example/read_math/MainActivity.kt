@@ -1,4 +1,4 @@
-package com.example.ted_gcc_mobile_app
+package com.example.read_math
 
 import io.flutter.embedding.android.FlutterActivity
 

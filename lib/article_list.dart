@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ted_gcc_mobile_app/article_detail.dart';
-import 'package:ted_gcc_mobile_app/styles.dart';
-import 'package:ted_gcc_mobile_app/models/article_model.dart';
-import 'package:ted_gcc_mobile_app/navbar.dart';
+import 'package:read_math/article_detail.dart';
+import 'package:read_math/styles.dart';
+import 'package:read_math/models/article_model.dart';
+import 'package:read_math/navbar.dart';
 
 class ArticleList extends StatelessWidget{
   final List<ArticleModel> articles;

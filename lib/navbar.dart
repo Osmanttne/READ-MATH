@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ted_gcc_mobile_app/styles.dart';
-import 'package:ted_gcc_mobile_app/main.dart';
-import 'package:ted_gcc_mobile_app/about_us.dart';
+import 'package:read_math/styles.dart';
+import 'package:read_math/main.dart';
+import 'package:read_math/about_us.dart';
 int currentPageIndex = 0;
 class NavBar extends StatelessWidget {
   const NavBar({Key? key}) : super(key: key);

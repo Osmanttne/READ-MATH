@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ted_gcc_mobile_app/navbar.dart';
-import 'package:ted_gcc_mobile_app/styles.dart';
+import 'package:read_math/navbar.dart';
+import 'package:read_math/styles.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class AboutUs extends StatelessWidget {
@@ -40,7 +40,7 @@ class AboutUs extends StatelessWidget {
               Container(
                   padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
                   child: const Text(
-                    "Math-Maker kulübü Üyeleri \nMustafa Efe Güzel\nOsman Talha Taka\nUlaş Kuşçu\nMina Mollaoğlu\nZeynep Pelin Ceyhan\nBeril Ayyıldız.",
+                    "Math-Maker kulübü Üyeleri \nMustafa Efe Güzel\nOsman Talha Taka\nUlaş Kuşçu\nMina Mollaoğlu\nZeynep Pelin Ceyhan\nBeril Zeynep Ayyıldız",
                     style: Styles.textDefault,
                   )
               ),
@@ -57,7 +57,7 @@ class AboutUs extends StatelessWidget {
               Container(
                   padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
                   child: const Text(
-                    "This app is free/open source software that is developed using the Flutter framework.",
+                    "Bu uygulama Flutter çerçevesi ile yazılmış özgür/açık kaynak yazılımdır.",
                     style: Styles.textDefault,
                   )
               ),
@@ -68,7 +68,7 @@ class AboutUs extends StatelessWidget {
                       onPressed: () {
                         launch("https://github.com/Osman-Taka/READ-MATH"); //launch is from url_launcher package to launch URL
                       },
-                      label: const Text("Kaynak Yazılımını görünlüle")
+                      label: const Text("Kaynak kodunu görüntüle")
                   )
               ),
             ]

@@ -33,6 +33,14 @@ class Articles {
           <ArticleContent>[
             ArticleContent("Christy Whitten et al.","Discovering ways to improve student academic performance is a common challenge in the modern classroom. This research study examined the reading habits of sixty-five high school juniors, aged fifteen to seventeen years, at a rural Southeast Texas high school. It was theorized that students who engaged in reading self-selected literature for pleasure would average higher grades in English, mathematics, science, and history than their non-reading peers. The authors concluded that students who read for pleasure averaged higher scores than their non-reading counterparts in the subject areas measured. The authors further concluded that educators were aware of the link between pleasure reading and academic success but felt limited by state curriculums and mandated tests."),
  ]
-),  ];
+), 
+ArticleModel(
+          "Okuma Alışkanlığının Okul Başarısına Etkisi: Ankara Keçiören Atapark İlköğretim Okulu Öğrencileri Üzerine Bir Araştırma ",
+          "http://images5.fanpop.com/image/photos/31100000/Math-Mania-math-31107557-2288-1617.jpg",
+          <ArticleContent>[
+            ArticleContent("Okuma alışkanlığı, bireyin bir gereksinim ve zevk kaynağı olarak algılaması sonucu \nokuma eylemini yaşam boyu sürekli, düzenli ve eleştirel bir biçimde gerçekleştirmesidir.Kazanılması ve geliştirilmesinde birçok bireysel ve toplumsal etkenin söz konusu olduğubu alışkanlık için en önemli kaynağın bilgi ve okuma ile en yoğun ve sistematik ilişkinin \nkurulduğu “örgün eğitim süreci” olduğu söylenebilir. Ancak, eğitim ile okuma \nalışkanlığı arasındaki ilişkinin söz edilen bu boyut ile sınırlı kalmadığı, bir başka\ndeyişle, eğitim-okuma alışkanlığı ilişkisinin iki yönlü bir ilişki olduğu öne sürülebilir.\nİlki, eğitimin okuma alışkanlığının temel kaynaklarından oluşu, diğeri ise, okuma alışkanlığının da eğitimdeki işlevleridir. Kısaca, eğitim süreci kişide okuma alışkanlığı yaratır ve geliştirirken, okuma alışkanlığı da eğitimde verimliliği ve başarıyı artıran bir unsur olmaktadır. \nBu çalışmada, öncelikle ele alınan konunun kuramsal çerçevesi oluşturulacak, literatür değerlendirilecek ve okuma alışkanlığının okul başarısı üzerindeki etkisinin düzeyi ve niteliği gerçekleştirilen araştırma bulgularına dayanarak tartışılacaktır. Elde edilen araştırma sonuçlarına göre, okuma alışkanlığının 8. sınıf öğrencilerinin takdirname almaları ve sınıf not ortalamalarını yükseltme çerçevesindeki eğitim başarılarını olumlu yönde etkilediği anlaşılmıştır. "),
+ ]
+),
+ ];
   }
 }

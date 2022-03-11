@@ -1,4 +1,4 @@
-# read_math
+# Read-Math 
 
 Read-Math projesinin mobil uygulamasıdır.
 

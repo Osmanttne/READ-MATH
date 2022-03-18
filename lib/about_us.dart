@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:read_math/navbar.dart';
 import 'package:read_math/styles.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 
 class AboutUs extends StatelessWidget {
   const AboutUs({Key? key}) : super(key: key);
@@ -19,11 +20,20 @@ class AboutUs extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Container(
-                  constraints: BoxConstraints.tightFor(height: 200),
-                  child: Image.network("https://twinspace.etwinning.net/files/collabspace/4/44/644/197644/images/ba77953d8.jpg", fit: BoxFit.fitWidth)
+                  constraints: const BoxConstraints.tightFor(height: 200),
+                  child: CachedNetworkImage(
+                    imageUrl: "https://twinspace.etwinning.net/files/collabspace/4/44/644/197644/images/ba77953d8.jpg",
+                    placeholder: (context, url) => const Center(child: SizedBox(
+                        width: 40,
+                        height: 40,
+                        child: CircularProgressIndicator()
+                    )),
+                    errorWidget: (context, url, error) => const Icon(Icons.error),
+                    fit: BoxFit.fitWidth,
+                  )
               ),
               Container(
-                  padding: EdgeInsets.fromLTRB(20, 20, 20, 10),
+                  padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
                   child: const Text(
                     "Bizler matemetiği okulda gördüğümüz bir dersin üstüne çıkarmaya çalışan lise öğrencileriyiz. Amacımız matematiksel düşünceyi geliştirmek, matematik ile ilgili çalışmalar yapmak ve matematiğin eğlenceli dünyasının kapılarını insanlara gösterebilmektir. Oku-Mat projemiz, verimli kitap okumanın matematik başarısını araştırma gayesi taşımaktadır.",
                     style: Styles.textDefault,

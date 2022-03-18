@@ -3,6 +3,7 @@ import 'package:read_math/article_detail.dart';
 import 'package:read_math/styles.dart';
 import 'package:read_math/models/article_model.dart';
 import 'package:read_math/navbar.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 
 class ArticleList extends StatelessWidget{
   final List<ArticleModel> articles;
@@ -10,9 +11,20 @@ class ArticleList extends StatelessWidget{
 
   Widget _itemThumbnail(ArticleModel thumbnailLocation){
     return Container(
-      constraints: const BoxConstraints.tightFor(width: 100),
-      child: Image.network(thumbnailLocation.url, fit: BoxFit.fitWidth)
-    );
+        constraints: const BoxConstraints.tightFor(width: 100),
+        child: ClipRRect(
+            borderRadius: BorderRadius.circular(8.0),
+            child: CachedNetworkImage(
+                imageUrl:thumbnailLocation.url,
+                placeholder: (context, url) => const Center(child: SizedBox(
+                    width: 40,
+                    height: 40,
+                    child: CircularProgressIndicator()
+                )),
+                errorWidget: (context, url, error) => const Icon(Icons.error),
+                fit: BoxFit.fitWidth
+            )
+        ));
   }
 
   Widget _itemTitle(ArticleModel titleLocation){

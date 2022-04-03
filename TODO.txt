@@ -1,10 +1,8 @@
 - Makalelerin altlarına PDF indirme butonları
-- Resimlerin yüklenme hızını çöz
 - Tasarımı geliştir
 -- Koyu tema ekle
 -- Satır araları
 -- Resim boyutu ayarla
 -- Navbar rengini ayarla
--- Proje ortaklarını takıma ekle
--- Yazıların arasına boşluk bırakacağız 
---
+- Proje ortaklarını takıma ekle
+- Yazıların arasına boşluk bırakacağız

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/article_model.dart';
 import 'package:read_math/styles.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class ArticleDetail extends StatelessWidget {
   final ArticleModel articleModel;
@@ -35,6 +36,18 @@ class ArticleDetail extends StatelessWidget {
     var x = <Widget>[];
     x.add(_bannerImage(articleModel.url, 200.0));
     x.addAll(_renderFacts(articleModel));
+    x.add(
+        Container(
+            padding: const EdgeInsets.fromLTRB(40, 10, 40, 10),
+            child: ElevatedButton.icon(
+                onPressed: () {
+                  launch(articleModel.downloadLink); //launch is from url_launcher package to launch URL
+                },
+                icon: const Icon(Icons.file_download),
+                label: const Text("PDF İndir")
+            )
+        ),
+    );
     return x;
   }
 

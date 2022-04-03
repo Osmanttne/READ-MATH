@@ -54,6 +54,7 @@ class AboutUs extends StatelessWidget {
                     style: Styles.textDefault,
                   )
               ),
+
               Container(
                   padding: const EdgeInsets.fromLTRB(40, 10, 40, 10),
                   child: ElevatedButton.icon(
@@ -63,6 +64,32 @@ class AboutUs extends StatelessWidget {
                       },
                       label: const Text("Bize E-Posta Gönderin")
                   )
+              ),
+
+              Container(
+                  padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
+                  child: const Text(
+                    "Proje Ortaklarımız",
+                    style: Styles.header,
+                  )
+              ),
+              Container(
+                  padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
+                  child: const Text(
+                    "Derya KOCAÇİNAR, Mehmet Akif İnan Ortaokulu\nGözde Dirmenci, TED Sakarya Koleji\nGulshan Hajiyeva, Baku, 99 nomreli ta orta mekteb\nİbrahim Soykan, TED Sakarya Koleji\nIraz KIYICI, TED Sakarya Koleji\nMehtap Üzer, Özel Mürüvvet Evyap Okulları\nReyhan VAHAPOĞLU, Silopi Atatürk Anadolu Lisesi\nSülhiye Yazıcı, Köprülü Mehmet Paşa Anadolu Lisesi\nYasin MERCAN, Kütahya Fatih Ortaokulu\nÖzlem GÖKKAYA, Buca Mehmet Akif Ersoy Sosyal Bilimler Lisesi",
+                    style: Styles.textDefault,
+                  )
+              ),
+
+              Container(
+                padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+                child: const Divider(
+                  color:  Colors.grey,
+                  height: 20,
+                  thickness: 2,
+                  indent: 10,
+                  endIndent: 10,
+                )
               ),
               Container(
                   padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),

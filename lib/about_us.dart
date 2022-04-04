@@ -50,7 +50,7 @@ class AboutUs extends StatelessWidget {
               Container(
                   padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
                   child: const Text(
-                    "Math-Maker kulübü Üyeleri \nMustafa Efe Güzel\nOsman Talha Taka\nUlaş Kuşçu\nMina Mollaoğlu\nZeynep Pelin Ceyhan\nBeril Zeynep Ayyıldız",
+                    "Math-Maker kulübü üyeleri\nBeril Zeynep Ayyıldız\nMina Mollaoğlu\nMustafa Efe Güzel\nOsman Talha Taka\nUlaş Kuşçu\nZeynep Pelin Ceyhan\n",
                     style: Styles.textDefault,
                   )
               ),

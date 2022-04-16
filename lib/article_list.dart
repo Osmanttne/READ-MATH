@@ -17,16 +17,13 @@ class ArticleList extends StatelessWidget {
             borderRadius: BorderRadius.circular(8.0),
             child: CachedNetworkImage(
                 imageUrl: thumbnailLocation.url,
-                placeholder: (context, url) =>
-                const Center(child: SizedBox(
-                    width: 40,
-                    height: 40,
-                    child: CircularProgressIndicator()
-                )),
+                placeholder: (context, url) => const Center(
+                    child: SizedBox(
+                        width: 40,
+                        height: 40,
+                        child: CircularProgressIndicator())),
                 errorWidget: (context, url, error) => const Icon(Icons.error),
-                fit: BoxFit.fitWidth
-            )
-        ));
+                fit: BoxFit.fitWidth)));
   }
 
   Widget _itemTitle(ArticleModel titleLocation) {
@@ -40,34 +37,32 @@ class ArticleList extends StatelessWidget {
         child: InkWell(
           onTap: () {
             Navigator.push(context,
-                MaterialPageRoute(builder: (context) => ArticleDetail(art)
-                ));
+                MaterialPageRoute(builder: (context) => ArticleDetail(art)));
           },
-          child: Row(
-              children: <Widget>[
-                Container(
-                  padding: const EdgeInsets.fromLTRB(5, 0, 15, 0),
-                  child: _itemThumbnail(art),
-                ),
-                Flexible(
-                  child: _itemTitle(art),
-                )
-              ]
-          ),
+          child: Row(children: <Widget>[
+            Container(
+              padding: const EdgeInsets.fromLTRB(5, 0, 15, 0),
+              child: _itemThumbnail(art),
+            ),
+            Flexible(
+              child: _itemTitle(art),
+            )
+          ]),
         ));
   }
-    @override
-    Widget build(BuildContext context) {
-      return (Scaffold(
-          appBar: AppBar(
-              title: const Text("Makaleler", style: Styles.appbarStyle)
-          ),
+
+  @override
+  Widget build(BuildContext context) {
+    /*if (pages.isEmpty) {
+      pages.push(0);
+    }*/
+    return Drawer(
+      child: (Scaffold(
+          appBar:
+              AppBar(title: const Text("Makaleler", style: Styles.appbarStyle)),
           drawer: const NavBar(),
           body: ListView.builder(
-              itemCount: articles.length,
-              itemBuilder: _locationTile
-          )
-      )
-      );
-    }
+              itemCount: articles.length, itemBuilder: _locationTile))),
+    );
   }
+}

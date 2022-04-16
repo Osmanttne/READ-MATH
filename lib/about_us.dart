@@ -108,6 +108,17 @@ class AboutUs extends StatelessWidget {
                       label: const Text("Kaynak kodunu görüntüle")
                   )
               ),
+              Container(
+                  padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
+                  child: const Text(
+                    "Bu proje bir eTwinning projesidir.",
+                    style: Styles.textDefault,
+                  )
+              ),
+              const Image(
+                fit: BoxFit.fitWidth,
+                image: AssetImage("assets/images/etwinning-logo.png")
+              )
             ]
         ),
       )

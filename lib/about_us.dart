@@ -76,7 +76,7 @@ class AboutUs extends StatelessWidget {
               Container(
                   padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
                   child: const Text(
-                    "Derya KOCAÇİNAR, Mehmet Akif İnan Ortaokulu\nGözde Dirmenci, TED Sakarya Koleji\nGulshan Hajiyeva, Baku, 99 nomreli ta orta mekteb\nİbrahim Soykan, TED Sakarya Koleji\nIraz KIYICI, TED Sakarya Koleji\nMehtap Üzer, Özel Mürüvvet Evyap Okulları\nReyhan VAHAPOĞLU, Silopi Atatürk Anadolu Lisesi\nSülhiye Yazıcı, Köprülü Mehmet Paşa Anadolu Lisesi\nYasin MERCAN, Kütahya Fatih Ortaokulu\nÖzlem GÖKKAYA, Buca Mehmet Akif Ersoy Sosyal Bilimler Lisesi",
+                    "İbrahim Soykan, TED Sakarya Koleji\nGözde Dirmenci, TED Sakarya Koleji\nIraz KIYICI, TED Sakarya Koleji\nDerya KOCAÇİNAR, Mehmet Akif İnan Ortaokulu\nGulshan Hajiyeva, Baku, 99 nomreli ta orta mekteb\nMehtap Üzer, Özel Mürüvvet Evyap Okulları\nReyhan VAHAPOĞLU, Silopi Atatürk Anadolu Lisesi\nSülhiye Yazıcı, Köprülü Mehmet Paşa Anadolu Lisesi\nYasin MERCAN, Kütahya Fatih Ortaokulu\nÖzlem GÖKKAYA, Buca Mehmet Akif Ersoy Sosyal Bilimler Lisesi",
                     style: Styles.textDefault,
                   )
               ),

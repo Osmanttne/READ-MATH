@@ -56,13 +56,16 @@ class ArticleList extends StatelessWidget {
     /*if (pages.isEmpty) {
       pages.push(0);
     }*/
-    return Drawer(
-      child: (Scaffold(
-          appBar:
-              AppBar(title: const Text("Makaleler", style: Styles.appbarStyle)),
+    return Scaffold(
+          appBar: AppBar(
+              title: const Text("Makaleler",
+              style: Styles.appbarStyle)
+          ),
           drawer: const NavBar(),
           body: ListView.builder(
-              itemCount: articles.length, itemBuilder: _locationTile))),
+              itemCount: articles.length,
+              itemBuilder: _locationTile
+          )
     );
   }
 }

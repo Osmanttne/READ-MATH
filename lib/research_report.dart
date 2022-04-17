@@ -1,10 +1,7 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:read_math/navbar.dart';
 import 'package:read_math/styles.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 
 class Report extends StatelessWidget {
   const Report({Key? key}) : super(key: key);

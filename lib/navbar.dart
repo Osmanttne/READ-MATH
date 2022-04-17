@@ -3,6 +3,8 @@ import 'package:read_math/styles.dart';
 import 'package:read_math/main.dart';
 import 'package:read_math/about_us.dart';
 import 'research_report.dart';
+import 'article_list.dart';
+import 'articles_for_Read_Math.dart';
 //int currentPageIndex = 0;
 
 /*class Stack<E> { // copy-pasted from Stack Overflow
@@ -27,7 +29,7 @@ class NavBar extends StatelessWidget{
       case 0:
         Navigator.pop(context);
         Navigator.push(context,
-            MaterialPageRoute(builder: (context) => const MyApp())
+            MaterialPageRoute(builder: (context) => ArticleList(Articles.FetchAll()))
         );
         break;
 

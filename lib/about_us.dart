@@ -20,7 +20,7 @@ class AboutUs extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Container(
-                  constraints: const BoxConstraints.tightFor(height: 200),
+                  constraints: const BoxConstraints.tightFor(height: 300),
                   child: CachedNetworkImage(
                     imageUrl: "https://twinspace.etwinning.net/files/collabspace/4/44/644/197644/images/ba77953d8.jpg",
                     placeholder: (context, url) => const Center(child: SizedBox(
@@ -50,7 +50,7 @@ class AboutUs extends StatelessWidget {
               Container(
                   padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
                   child: const Text(
-                    "Math-Maker kulübü üyeleri\nBeril Zeynep Ayyıldız\nMina Mollaoğlu\nMustafa Efe Güzel\nOsman Talha Taka\nUlaş Kuşçu\nZeynep Pelin Ceyhan\n",
+                    "TED Sakarya Koleji Math-Maker Kulübü Üyeleri\nMustafa Efe Güzel (Kulüp Başkanı, Uygulama Geliştiricisi)\nOsman Talha Taka (Uygulama Geliştiricisi)\nBeril Zeynep Ayyıldız\nMina Mollaoğlu\nUlaş Kuşçu\nZeynep Pelin Ceyhan\n",
                     style: Styles.textDefault,
                   )
               ),
@@ -65,6 +65,20 @@ class AboutUs extends StatelessWidget {
                       label: const Text("Bize E-Posta Gönderin")
                   )
               ),
+              Container(
+                  padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
+                  child: const Text(
+                    "Proje Kurucuları",
+                    style: Styles.header,
+                  )
+              ),
+              Container(
+                  padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
+                  child: const Text(
+                    "İbrahim Soykan, TED Sakarya Koleji\nGulshan Hajiyeva, Baku, 99 nomreli ta orta mekteb",
+                    style: Styles.textDefault,
+                  )
+              ),
 
               Container(
                   padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
@@ -76,7 +90,7 @@ class AboutUs extends StatelessWidget {
               Container(
                   padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
                   child: const Text(
-                    "İbrahim Soykan, TED Sakarya Koleji\nGözde Dirmenci, TED Sakarya Koleji\nIraz KIYICI, TED Sakarya Koleji\nDerya KOCAÇİNAR, Mehmet Akif İnan Ortaokulu\nGulshan Hajiyeva, Baku, 99 nomreli ta orta mekteb\nMehtap Üzer, Özel Mürüvvet Evyap Okulları\nReyhan VAHAPOĞLU, Silopi Atatürk Anadolu Lisesi\nSülhiye Yazıcı, Köprülü Mehmet Paşa Anadolu Lisesi\nYasin MERCAN, Kütahya Fatih Ortaokulu\nÖzlem GÖKKAYA, Buca Mehmet Akif Ersoy Sosyal Bilimler Lisesi",
+                    "Gözde Dirmenci, TED Sakarya Koleji\nIraz KIYICI, TED Sakarya Koleji\nDerya KOCAÇİNAR, Mehmet Akif İnan Ortaokulu\nMehtap Üzer, Özel Mürüvvet Evyap Okulları\nReyhan VAHAPOĞLU, Silopi Atatürk Anadolu Lisesi\nSülhiye Yazıcı, Köprülü Mehmet Paşa Anadolu Lisesi\nYasin MERCAN, Kütahya Fatih Ortaokulu\nÖzlem GÖKKAYA, Buca Mehmet Akif Ersoy Sosyal Bilimler Lisesi",
                     style: Styles.textDefault,
                   )
               ),

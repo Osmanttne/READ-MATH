@@ -21,6 +21,24 @@ class Report extends StatelessWidget {
             Container(
                 padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
                 child: const Text(
+                  "Projenin TÜBİTAK 2204 - A Lise Öğrencileri Araştırma Projeleri Yarışması'na sunulmuş olan metnine aşağıdaki butondan ulaşılabilir.",
+                  style: Styles.textDefault,
+                )
+            ),
+            Container(
+                padding: const EdgeInsets.fromLTRB(40, 10, 40, 10),
+                child: ElevatedButton.icon(
+                    icon: const Icon(Icons.article),
+                    onPressed: () {
+                      launch("https://docs.google.com/document/d/1b4dbQ8typFCjIEH6idPgCxScD_j3kZ_saXFL8j_5xug"); //launch is from url_launcher package to launch URL
+                    },
+                    label: const Text("Proje metnini görüntüle")
+                )
+            ),
+
+            Container(
+                padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
+                child: const Text(
                   "Özet",
                   style: Styles.header,
                 )
@@ -76,24 +94,7 @@ class Report extends StatelessWidget {
                   indent: 10,
                   endIndent: 10,
                 )
-            ),
-            Container(
-                padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
-                child: const Text(
-                  "Projenin TÜBİTAK 2204 - A Lise Öğrencileri Araştırma Projeleri Yarışması'na sunulmuş olan metnine aşağıdaki butondan ulaşılabilir.",
-                  style: Styles.textDefault,
-                )
-            ),
-            Container(
-                padding: const EdgeInsets.fromLTRB(40, 10, 40, 10),
-                child: ElevatedButton.icon(
-                    icon: const Icon(Icons.article),
-                    onPressed: () {
-                      launch("https://docs.google.com/document/d/1b4dbQ8typFCjIEH6idPgCxScD_j3kZ_saXFL8j_5xug"); //launch is from url_launcher package to launch URL
-                    },
-                    label: const Text("Proje metnini görüntüle")
-                )
-            ),
+            )
           ]
         )
       )

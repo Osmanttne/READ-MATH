@@ -1,7 +1,3 @@
 - Tasarımı geliştir
 -- Koyu tema ekle
--- Satır araları
 -- Resim boyutu ayarla
--- Navbar rengini ayarla
-- Yazıların arasına boşluk bırakacağız
-- Çeviriler
